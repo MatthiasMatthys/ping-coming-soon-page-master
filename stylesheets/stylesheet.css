@@ -71,9 +71,16 @@ footer {
 .icons{
     color: hsl(223, 87%, 63%);
     background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
 }
 .icons:hover{
     cursor: pointer;
     color: white;
     background-color: hsl(223, 87%, 63%);
+}
+
+.socials{
+    margin-top: 100px;
 }
