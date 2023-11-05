@@ -1,0 +1,79 @@
+body {
+    font-family: "Libre Franklin", "sans-serif";
+}
+
+.soon {
+    font-weight: bold;
+    color: hsl(209, 33%, 12%);
+}
+
+.container {
+    padding-top: 5%;
+    max-width: 1200;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: grey;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    background-color: hsl(223, 87%, 63%);
+    padding: 15px;
+    border: none;
+    border-radius: 64px;
+    width: 200px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: hsl(223, 89%, 78%);
+    cursor: pointer;
+}
+
+input {
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 64px;
+    width: 400px;
+    border: 1px solid hsl(223, 70%, 87%);
+
+}
+
+input::placeholder {
+    color: hsl(223, 70%, 87%);
+    padding-left: 10px;
+}
+
+footer {
+    margin: 20px;
+}
+.dashboard-img{
+    margin-top: 100px;
+}
+.validation-feedback{
+    text-align: start;
+    font-size: 13px;
+    color: red;
+    margin: auto;
+    width: 630px;
+    font-style: italic;
+}
+
+.icons{
+    color: hsl(223, 87%, 63%);
+    background-color: white;
+}
+.icons:hover{
+    cursor: pointer;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+}
